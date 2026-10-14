@@ -1,21 +1,20 @@
 # Broken Blade Messenger — previs delivery
 
-## Current version: V2
+## Current version: V3 — 19 seconds
 
-Download [broken_blade_delivery_v2.zip](broken_blade_delivery_v2.zip) using GitHub's **Download raw file** button. Extract it locally and open `broken_blade_previs_v2.mp4` in a video player, or `broken_blade_previs_v2.blend` in Blender.
+Download [broken_blade_delivery_v3.zip](broken_blade_delivery_v3.zip) using GitHub's **Download raw file** button. Extract it and play `broken_blade_previs_v3.mp4`, or open `broken_blade_previs_v3.blend` in Blender.
 
-V2 changes:
+V3 expands the ending by four seconds:
 
-- Messenger runs empty-handed in the first shot; the broken blade is secured at the waist.
-- The main attacker jumps out from the messenger's own left side of the bamboo grove.
-- Revised bamboo clearances, stabbing endpoint, weapon lock and shoulder-impact poses.
-- Final shot tilts from the lowered blade to the messenger's front; A and B appear behind the messenger only in the last shot.
-- Timing uses the uploaded text script's five sections while keeping the storyboard's nine-shot order.
+- Shot 08, 13–16 seconds: retract and lower the blade, settle stance, visible chest breathing, then hold still.
+- Shot 09, 16–19 seconds: blood drips from the blade; cut to an eye close-up; pull back to reveal A and B behind the messenger.
+- Blood and eyes use simple low-poly geometry and keyframes.
+- Shots 01–07 retain the V2 blocking, waist blade, left-side attack and corrected bamboo clearances.
 
-Characters: messenger orange; main attacker dark blue; A purple; B cyan.
+Characters remain orange (messenger), dark blue (main attacker), purple (A) and cyan (B).
 
-The ZIP includes the MP4, editable Blender scene, contact sheet, Chinese shot notes, generation script, label file and validation report.
+Verified: 1920×1080, 24 fps, 456 decoded frames, 19 seconds, H.264. Mesh-surface intersection checks cover all 456 frames and detected zero intersections with bamboo and zero weapon intersections with opponents' bodies and arms. Breathing/hold, falling drops, close-up camera order and rear ambusher visibility also passed checks. The video is silent.
 
-Verified: 1920×1080, 24 fps, 360 frames, 15 seconds, H.264; full-video decoding passed. All 360 frames were checked for bamboo mesh-surface intersections and weapon intersections with opponents' body and arms; zero detected. This is a silent geometry previs, without detailed acting, facial features or particle effects.
+The ZIP includes the MP4, editable main scene, nine-shot overview, ending detail sheet, Chinese timing notes, generation script, labels and validation report. `source/base_scene_v2.blend` is only a rebuilding input, not the current main scene.
 
-The original V1 package is retained as `broken_blade_delivery.zip` for comparison.
+V1 and V2 packages are retained for comparison.
